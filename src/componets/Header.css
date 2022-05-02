@@ -1,0 +1,43 @@
+.navbar {
+    display: flex;
+    padding: 10px 20px;
+
+}
+.navbar-nav a
+{
+    /* flex-direction: row; */
+    color: #fff !important;
+    padding: 10px;
+    /* flex-wrap: nowrap; */
+}
+
+.navbar-nav{
+    display: flex;
+    flex-direction: row;
+    color: #fff !important;
+    align-content:space-between;
+    padding: 10px;
+
+}
+.bg-dark{
+    color: #fff;
+    padding: 5px;
+
+    bottom: 0px;
+    left: 0px;
+    width: 100%;
+   
+    position: fixed;
+    font-size: 10px;
+  
+  
+}
+.bg-dark small{
+    font-size: 7px;
+    word-spacing: 3px;
+    letter-spacing: 1px;
+    text-align: right !important;
+}
+.bg-dark p{
+    text-align: right;
+}
